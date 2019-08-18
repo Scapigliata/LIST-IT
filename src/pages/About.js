@@ -6,7 +6,11 @@ const About = () => (
     <Jumbotron className="jumbotron">
       <Container>
         <h1>About</h1>
-        <p>All Your Lists, All One Place.</p>
+        <hr />
+        <p><em>All Your Lists, All One Place.</em></p>
+        <p>A simple React SPA made using Hooks.
+           Using localStorage to keep your lists data persisting, 
+           and a design approach implementing React-Bootstrap and Font-Awesome. </p>
         <p />
       </Container>
     </Jumbotron>
