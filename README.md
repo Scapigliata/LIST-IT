@@ -1,4 +1,4 @@
-#Click link to view project:
+## Click link to view project:
 https://young-cliffs-83737.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
