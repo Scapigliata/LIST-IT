@@ -32,6 +32,30 @@
   }
 }
 
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width: 768px) {
+ /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+}
+
 #form-container {
   /* background: linear-gradient(to top, #49fff0, rgb(34, 101, 178)); */
   margin: 10px auto;
@@ -91,6 +115,9 @@ li:hover {
 
 #inputButton {
   width: 100%;
+  min-width:  300px;
+
+
 }
 
 #myUl {
@@ -132,6 +159,7 @@ li:hover {
 
 .jumbotron {
   min-height: 100vh;
+  min-width:  300px;
 }
 
 .completed-button {
@@ -177,4 +205,8 @@ li:hover {
   outline: none;
   transform: scale(1.2);
   transition: 1s;
+}
+
+.chess {
+  padding-top: 2px;
 }

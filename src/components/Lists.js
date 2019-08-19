@@ -5,7 +5,7 @@ import { faCheck, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 function List({ list, index, completeList, deleteList }) {
   return (
-    <li
+    <div id="func-list-container"><li
       className="liTest containList"
       style={{ textDecoration: list.isCompleted ? "line-through" : "" }}
     >
@@ -18,7 +18,7 @@ function List({ list, index, completeList, deleteList }) {
           <FontAwesomeIcon icon={faMinus} />
         </button>
       </div>
-    </li>
+    </li></div>
   );
 }
 

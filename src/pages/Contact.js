@@ -10,6 +10,7 @@ const Contact = () => {
           <hr />
           <p>Paulina Ludwig Torreblanca</p>
           <p>scapigliataludwig@gmail.com</p>
+          <a href="https://github.com/Scapigliata">https://github.com/Scapigliata</a>
         </Container>
       </Jumbotron>
     </div>
