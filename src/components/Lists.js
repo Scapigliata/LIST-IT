@@ -5,17 +5,18 @@ import { faCheck, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 function List({ list, index, completeList, deleteList }) {
   return (
-    <div id="func-list-container"><li
+    <div id="func-list-container">
+    <li
       className="liTest containList"
       style={{ textDecoration: list.isCompleted ? "line-through" : "" }}
     >
-      {list.text}
+      {list.text} 
       <div>
         <button id="test-btn" className="completed-button check-btn" onClick={() => completeList(index)}>
-          <FontAwesomeIcon icon={faCheck} />
+          <FontAwesomeIcon class="icon" icon={faCheck} />
         </button>
         <button className="completed-button check-btn x-btn" onClick={() => deleteList(index)}>
-          <FontAwesomeIcon icon={faMinus} />
+          <FontAwesomeIcon class="icon" icon={faMinus} />
         </button>
       </div>
     </li></div>

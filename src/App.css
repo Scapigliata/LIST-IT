@@ -75,8 +75,8 @@ li:hover {
   border: 2px rgb(162, 208, 203) solid;
   background: white;
   width: 100%;
-  height: 40px;
   list-style-position: inside;
+  margin-bottom: 5px;
 }
 
 .input-field {
@@ -151,6 +151,7 @@ li:hover {
 
 .containList:hover {
   background: ghostwhite;
+  word-wrap: break-word;
 }
 
 .check-btn {
@@ -197,6 +198,3 @@ li:hover {
     height: 50vh;
   }
 }
-
-
-
