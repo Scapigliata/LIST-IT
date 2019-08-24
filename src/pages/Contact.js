@@ -3,7 +3,7 @@ import { Container, Jumbotron } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="about-page-content">
       <Jumbotron className="jumbotron">
         <Container>
           <h1>Contact</h1>
