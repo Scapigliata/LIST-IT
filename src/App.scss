@@ -1,3 +1,5 @@
+@import './variables';
+
 .App {
   text-align: center;
 }
@@ -9,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $dark;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,7 +22,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: $neonBlue;
 }
 
 @keyframes App-logo-spin {
@@ -31,12 +33,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+
 #form-container {
   /* background: linear-gradient(to top, #49fff0, rgb(34, 101, 178)); */
   margin: 10px auto;
   width: 500px;
   /* font-family: 'Beth Ellen', cursive; */
-}
+} 
 
 .logo {
   float: left;
@@ -56,7 +61,7 @@ li {
 }
 
 li:hover {
-  background: #6facc1;
+  background: $lightneonBlue;
 }
 
 .fa-exclamation-triangle {
@@ -69,7 +74,7 @@ li:hover {
 }
 
 .liTest {
-  border: 2px #a2d0cb solid;
+  border: 2px rgb(162, 208, 203) solid;
   background: white;
   width: 100%;
   list-style-position: inside;
@@ -84,7 +89,7 @@ li:hover {
 }
 
 #submit {
-  background: #6f6fd5;
+  background: $lightPurple;
   color: white;
   margin-top: 20px;
 }
@@ -112,7 +117,7 @@ li:hover {
 }
 
 .form-container {
-  background: #b5aedf;
+  background: $lighterPurple;
   border-radius: 5px;
   padding: 80px 20px;
   margin: 50px auto;
@@ -128,6 +133,7 @@ li:hover {
 .item-container {
   padding: 10px;
 }
+
 
 .jumbotron {
   min-height: 100vh;
@@ -159,17 +165,17 @@ li:hover {
 
 .check-btn:hover {
   border-radius: 50%;
-  background: #20b120;
+  background: $neonGreen;
 }
 
 .x-btn:hover {
   border-radius: 50%;
-  background: #f72c2c;
+  background: rgb(247, 44, 44);
   transform: rotate(180deg);
   transition: 1s;
 }
 
-.x-btn:active, .x-btn:focus, #test-btn:focus {
+.x-btn:active, .x-btn:focus, #test-btn:focus  {
   outline: none;
 }
 
@@ -188,16 +194,14 @@ li:hover {
     width: 70vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
     margin-left: 10vw;
   }
-
   #home-page-content {
     height: 50vh;
   }
 }
+
 .route-page-content {
   height: 100vh;
 }
-
-/*# sourceMappingURL=App.css.map */
